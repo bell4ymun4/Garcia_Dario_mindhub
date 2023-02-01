@@ -3,6 +3,15 @@
     padding: 0;
     margin: 0;
 }
+.header1{
+    min-height: 25vh;
+}
+.main1{
+    min-height: 60vh;
+}
+.footer1{
+    min-height: 15vh;
+}
 .headermain{
     display: flex;
     justify-content: space-between;
@@ -71,6 +80,7 @@ footer{
     align-items: center;
     background-color: #000000;
     padding: .5rem 2rem;
+    
 }
 footer>p{
     margin: 0 !important;
@@ -160,6 +170,7 @@ table{
     min-height: 80vh;
     display: flex;
     justify-content: center;
+    padding: 3rem;
 }
 td{
     height: 2rem;
