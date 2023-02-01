@@ -103,41 +103,8 @@ footer>p{
     align-items: center;
     margin-top: 6rem;
 }
-.price1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
-}
-.price2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 7rem;
-}
-.price3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8rem;
-}
-.price4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
-}
-.price5{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
-}
-.price6{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3rem;
+.pcard{
+    min-height: 4.3rem;
 }
 h5{
     text-align: center;
@@ -203,7 +170,7 @@ th{
     color: #e7eaea;
     background-color: #000000;
 }
-.alex{
+.img2{
     width: 20rem;
     height: 10rem;
     margin-left: 10rem;
@@ -213,18 +180,23 @@ th{
     min-height: 70vh;
     align-items: center;
 }
-.boxalex{
+.box2{
     width: 50%;
 }
-.alexsec{
+.secmain{
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 .submit{
     width: 3rem;
+}
+.card-img-top{
+    width: 286px;
+    height: 214px;
 }
 @media(min-width:320px) and (max-width:425px){
     #mesagge{
@@ -247,7 +219,7 @@ th{
     table{
         padding: .8rem;
     }
-    .alex{
+    .img2{
         width: 10rem;
         height: 5rem;
         margin-left: auto;
