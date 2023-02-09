@@ -108,30 +108,31 @@
 // let nombre=prompt("ingrese su nombre")
 // let pase=prompt("ingrese su pase (seas vip o normal)")
 // let entrada=prompt("tiene entrada?")
-// let miNombre="Dario"
-
+// let miNombre="Dario"        
 // if(nombre===miNombre || pase==="vip"){
 //     alert("tiene ingreso libre , Bienvenido..")
+
 // }
+
 // else if (entrada==="si"||entrada==="s"||entrada===true){
 //     let respuesta=prompt("desea usarla?")
 //     if(respuesta==="si"){
-//         alert("bienvenido..")
+//         alert("bienvenido..")            
 //     }
 // }
-//     else{
+//     else {
 //         let respuesta2=prompt("desea comprar una?")
 //         if(respuesta2==="si"){
 //             let respuesta3=prompt("ingrese su dindero disponible por favor")
 //             if(respuesta3>=1000){
 //                 alert("venta de entrada aprobada, Bienvenido")
-                
+
 //             }
-//             else{
+//         else{
 //                 alert("dindero insufiiente, hasta otra oprtiunidad")
 //             }
 //         }
-//         else{
+// else{
 //             alert("rechazo de venta ,hasta luego disfrute su noche")
 //         }
 //     }
@@ -144,12 +145,10 @@
 // //  8)           
 
 // let numeroElegido=5
-
 // for (let intentos =3;intentos>0;intentos--){
 //     let numeroIncognita = prompt (  ("adivina el numero del 1 al 10 , tienes"+" ")+intentos+(" "+ "intentos") )
 //     if(numeroIncognita>numeroElegido){
 //         alert("el numero que ingresaste es mayor")
-
 //     }
 //     else if(numeroIncognita<numeroElegido){ 
 //         alert("el numero que ingresaste en menor")
@@ -158,7 +157,7 @@
 //         alert("felicidades!!! acertaste...")
 //         break;
 //     }
-//      if (intentos===1) {
+//     if (intentos===1) {
 //         alert ("te quedaste sin posibilidades, gracias por participar ")
 //     }
 // }
@@ -175,7 +174,7 @@
 //     alert ("eres un adolecente")
 // }
 // else if (edad>18 && edad<46){
-//     alert ("eres un adolecente")
+//     alert ("eres un mayor joven")
 // }
 // else if (edad>100){ 
 //     alert ("esa es realmente tu edad ?")
@@ -282,3 +281,6 @@
 // }
 // alert("registro existoso, verifique por consola")
 // console.table(dni)
+
+
+

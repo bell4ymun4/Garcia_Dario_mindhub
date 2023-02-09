@@ -37,6 +37,7 @@
     gap: 1rem;
     color: #fff;
     flex-wrap: wrap;
+    padding-bottom:1rem;
 }
 .boxmain{
     display: flex;
@@ -194,14 +195,7 @@ th{
 .box2{
     width: 50%;
 }
-.secmain{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
+
 .submit{
     width: 3rem;
 }
@@ -210,6 +204,12 @@ th{
     height: 214px;
 }
 @media(min-width:320px) and (max-width:425px){
+    .divdetails2 {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+    }
     #mesagge{
         height: 5rem;
         width: 16rem;
@@ -252,15 +252,85 @@ th{
         margin-top: .5rem;
     
     } 
+
     .cards .card{
         margin-left: 0;
         background-color: #07070786;
         color: rgb(249, 248, 248);
         margin-bottom: 2rem;
     }
+    .divdetails{
+        flex-direction: column;
+        align-items: center;
+    }
+    .divdetails1{
+        
+        align-items: center;
+    }
 }
 @media(min-width:426px) and (max-width:768px){
     table{
         padding: .8rem;
+    
     }
+    .divdetails{
+        flex-direction: column;
+        align-items: center;
+    }
+    .divdetails1{
+        
+        align-items: center;
+    }
+    
+}
+
+#imgerror{
+    height: 20rem;
+    padding-bottom: 2rem;
+}
+
+.back{
+    text-decoration: none;
+        color: rgb(20, 16, 211);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 50;
+        border-radius: 10px;
+        padding: 2.5px 5px;
+        background-color: #fff;
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+        width: 4rem;
+        justify-content: center;
+
+}
+#box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#imgdetails{
+    width: 16rem;
+    height: 16rem;
+    margin: 2rem;
+}
+.divdetails{
+    display: flex;
+    justify-content: center;
+}
+.divdetails1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+.divdetails2{
+    display: flex;
+    
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
