@@ -98,7 +98,7 @@ export function errorList(){
 }
 
 //imprimir error
-export function imprimirError(lista,elemento){
+export function printError(lista,elemento){
     if(lista.length===0){
     elemento.innerHTML = errorList()
     }
@@ -111,7 +111,7 @@ let response = await fetch(endpoint);
 let json= await response.json();
 return json;
 }
-export function obtenerEventosFuturos(dateEvent,listEvents,conteiner){
+export function getFutureEvents(dateEvent,listEvents,conteiner){
     let fechaHoy = dateEvent
     let card = "" 
     

@@ -1,4 +1,4 @@
-import { cardsFilterPast,obtenerEventosPasados,createCheck,fetchAsync,ObtenerCard,checkdinamic,searching,errorList,imprimirError, checkboxcategory, CrearEventosDOM } from './module/funciones.js'
+import { cardsFilterPast,createCheck,fetchAsync,ObtenerCard,checkdinamic,searching,errorList,printError, checkboxcategory, CrearEventosDOM } from './module/funciones.js'
 
 fetch ("https://mindhub-xj03.onrender.com/api/amazing")
 .then(response=>response.json())
@@ -8,7 +8,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
     const conteiner = document.getElementById("cards")
     const searchForm= document.getElementById("form_search")
     CrearEventosDOM(cardsFilterPast(allEvents,dateEvents),conteiner)
-    console.log(cardsFilterPast(allEvents,dateEvents));
+    
     const checks = document.getElementById("category")
     const category=allEvents
         .filter(dato => dato.date > data.currentDate)
@@ -25,7 +25,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
         let fil = searching(search,cardsFilterPast(allEvents,dateEvents))
         let filterCheck = checkboxcategory(fil)
         CrearEventosDOM(filterCheck,conteiner)
-        imprimirError(filterCheck,conteiner)
+        printError(filterCheck,conteiner)
     })
     
     
@@ -36,7 +36,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
         let fil = searching(search,cardsFilterPast(allEvents,dateEvents))
         let filterCheck = checkboxcategory(fil)
         CrearEventosDOM(filterCheck,conteiner)
-        imprimirError(filterCheck,conteiner)
+        printError(filterCheck,conteiner)
     })
 
 

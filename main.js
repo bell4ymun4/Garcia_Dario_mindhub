@@ -1,5 +1,5 @@
 
-import { createCheck,fetchAsync,ObtenerCard,checkdinamic,searching,errorList,imprimirError, checkboxcategory, CrearEventosDOM } from './module/funciones.js'
+import { createCheck,fetchAsync,ObtenerCard,checkdinamic,searching,errorList,printError, checkboxcategory, CrearEventosDOM } from './module/funciones.js'
 const searchForm= document.getElementById("form_search")
 const conteiner = document.getElementById("cards")
 
@@ -26,7 +26,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
         let fil = searching(search,allEvents)
         let filterCheck = checkboxcategory(fil)
         CrearEventosDOM(filterCheck,conteiner)
-        imprimirError(filterCheck,conteiner)
+        printError(filterCheck,conteiner)
     })
     
     
@@ -37,7 +37,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
         let fil = searching(search,allEvents)
         let filterCheck = checkboxcategory(fil)
         CrearEventosDOM(filterCheck,conteiner)
-        imprimirError(filterCheck,conteiner)
+        printError(filterCheck,conteiner)
     })
 })
 .catch(error=>console.log(error))
