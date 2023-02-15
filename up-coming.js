@@ -19,6 +19,7 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
     const arraycategory = [...onecategory]
     
     checkdinamic(arraycategory,checks)
+    console.log(arraycategory);
     
     //filatrado de checks
     

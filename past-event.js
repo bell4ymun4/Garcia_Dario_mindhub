@@ -8,9 +8,11 @@ fetch ("https://mindhub-xj03.onrender.com/api/amazing")
     const conteiner = document.getElementById("cards")
     const searchForm= document.getElementById("form_search")
     CrearEventosDOM(cardsFilterPast(allEvents,dateEvents),conteiner)
-    
+    console.log(cardsFilterPast(allEvents,dateEvents));
     const checks = document.getElementById("category")
-    const category=allEvents.map(filt=>filt.category)
+    const category=allEvents
+        .filter(dato => dato.date > data.currentDate)
+        .map(filt=>filt.category)
     const onecategory = new Set (category)
     const arraycategory = [...onecategory]
     

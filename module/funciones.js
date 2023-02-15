@@ -119,7 +119,7 @@ export function obtenerEventosFuturos(dateEvent,listEvents,conteiner){
         if ((e.date) > fechaHoy){
             
             card+= ObtenerCard(e)
-            console.log(card);
+            
         }
     }
     
@@ -149,7 +149,7 @@ export function cardDetails(events,cualquiera){
 export function cardsFilterPast (events, pastDate) {
     let pastEvents = [];
     for(let event of events){
-        if (pastDate < event.date){
+        if (pastDate > event.date){
         pastEvents.push(event);
     }
     }

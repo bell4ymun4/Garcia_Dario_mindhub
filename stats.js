@@ -1,5 +1,5 @@
 
-import { asyncdata, filtup, pastFilter, highPercentage, lowPercentage, greaterCapacity, staticsUpComing, staticsPast } from "./module/funciones.js";
+import { asyncdata, filtup, pastFilter, highPercentage, lowPercentage, greaterCapacity, staticsUpComing,    } from "./module/funciones.js";
 
 const statsMain = document.getElementById("table");
 
